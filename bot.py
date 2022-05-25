@@ -8,7 +8,7 @@ def decision1():
     ans = 'incorrect'
     while (ans == 'incorrect'):
         if (customer1.upper() == "1"):
-            print("Where would you like to eat\n1.Wimpy\n2.Imperani\n3.KFC\n4.Mochachose\n5.Wild BBQ")
+            print("Where would you like to eat\n1.Wimpy\n2.Imperani\n3.KFC\n4.Wild BBQ")
             ans = 'correct'
             decision2()
         elif (customer1.upper() == "2"):
@@ -39,7 +39,7 @@ def decision2():
             print("Would you like a menu?\n1.Yes\n2.No")
             customer1 = input()
             if (c1.upper() == "1"):
-                print("MENU1")
+                print("https://food-menu-6924.twil.io/Breakfast_Griills_.pdf")
                 print("Enter your order: ")
                 ans = 'correct'
                 decision3()
@@ -51,7 +51,7 @@ def decision2():
             print("Would you like a menu?\n1.Yes\n2.No")
             customer1 = input()
             if (customer1.upper() == "1"):
-                print("MENU2")
+                print("https://food-menu-6924.twil.io/Imperani%20menu.pdf")
                 ans = 'correct'
                 decisoin3()
             elif (customer1.upper() == "2"):
@@ -62,7 +62,7 @@ def decision2():
             print("Would you like a menu?\n1.Yes\n2.No")
             customer1 = input()
             if (customer1.upper() == "1"):
-                print("MENU3")
+                print("https://food-menu-6924.twil.io/KFC.pdf")
                 ans = 'correct'
                 decision3()
             elif (customer1.upper() == "2"):
@@ -71,20 +71,9 @@ def decision2():
                 decision3()
         elif (customer1.upper() == "4"):
             print("Would you like a menu?\n1.Yes\n2.No")
-            customre1 = input()
-            if (customer1.upper() == "1"):
-                print("MENU4")
-                ans = 'correct'
-                decision3()
-            elif (customer1.upper() == "2"):
-                print("Alright, you may enter your order.")
-                ans = 'correct'
-                decision3()
-        elif (customer1.upper() == "5"):
-            print("Would you like a menu?\n1.Yes\n2.No")
             customer1 = input()
             if (customer1.upper() == "1"):
-                print("MENU5")
+                print("https://food-menu-6924.twil.io/BBq.jpg")
                 ans = 'correct'
                 decision3()
             elif (customer1.upper() == "2"):
